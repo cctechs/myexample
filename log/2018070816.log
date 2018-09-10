@@ -1,0 +1,14 @@
+2018-07-08 16:09:24.235006 [ INFO][ APP][00022][TcpConnector.go:14]try to connect 127.0.0.1:9998 ......
+2018-07-08 16:09:24.235908 [ INFO][ APP][00022][main.go:65]onconnected
+2018-07-08 16:09:24.235996 [ INFO][ APP][00025][TcpSocket.go:160]start onSendBuff
+2018-07-08 16:09:24.236288 [ INFO][ APP][00024][TcpSocket.go:71]start onRecvBuff
+2018-07-08 16:09:24.236385 [ INFO][ APP][00022][main.go:60]sendLogin, data:[10 11 0 1 0 0 0 25 0 0 0 0 0 0 0 0 10 7 116 101 115 116 48 48 49]
+2018-07-08 16:09:24.236451 [ INFO][ APP][00026][TcpSocket.go:94]start onHandleBuff
+2018-07-08 16:09:24.236752 [ INFO][ APP][00027][TcpSocket.go:61]start checkExit
+2018-07-08 16:09:34.890953 [ INFO][ APP][00008][TcpConnector.go:14]try to connect 127.0.0.1:9998 ......
+2018-07-08 16:09:34.892840 [ INFO][ APP][00008][main.go:65]onconnected
+2018-07-08 16:09:34.892909 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2018-07-08 16:09:34.893035 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2018-07-08 16:09:34.893135 [ INFO][ APP][00021][TcpSocket.go:61]start checkExit
+2018-07-08 16:09:34.893123 [ INFO][ APP][00018][TcpSocket.go:71]start onRecvBuff
+2018-07-08 16:09:34.893174 [ INFO][ APP][00008][main.go:60]sendLogin, data:[10 11 0 1 0 0 0 25 0 0 0 0 0 0 0 0 10 7 116 101 115 116 48 48 49]

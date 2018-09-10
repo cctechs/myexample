@@ -1,0 +1,264 @@
+2017-12-23 11:00:25.924500 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:00:25.924753 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:00:26.525637 [DEBUG][ APP][00007][clientsocket.go:18]OnConnected
+2017-12-23 11:00:26.525748 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:54226
+2017-12-23 11:00:26.525769 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:00:26.525792 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:00:26.525919 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:00:26.525903 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:00:27.523312 [DEBUG][ APP][00020][TcpSocket.go:133]onHandleBuff, PACKER_HEADER error, err:EOF
+2017-12-23 11:01:20.551897 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:01:20.552161 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:01:21.373678 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:01:21.373678 [DEBUG][ APP][00007][clientsocket.go:18]OnConnected
+2017-12-23 11:01:21.373754 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:54238
+2017-12-23 11:01:21.373907 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:01:21.373909 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:01:21.373951 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:02:35.591562 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:02:35.591787 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:02:35.786949 [DEBUG][ APP][00007][clientsocket.go:18]OnConnected
+2017-12-23 11:02:35.786971 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:02:35.787032 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:54255
+2017-12-23 11:02:35.787095 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:02:35.787129 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:02:35.787184 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:02:45.532538 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:02:45.532787 [ INFO][ APP][00021][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:02:45.784182 [DEBUG][ APP][00021][clientsocket.go:18]OnConnected
+2017-12-23 11:02:45.784175 [ INFO][ APP][00034][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:02:45.784261 [ INFO][ APP][00035][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:02:45.784257 [ INFO][ APP][00021][TcpAcceptor.go:49]new connection 127.0.0.1:54259
+2017-12-23 11:02:45.784287 [ INFO][ APP][00037][TcpSocket.go:62]start checkExit
+2017-12-23 11:02:45.784373 [ INFO][ APP][00036][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:03:01.655226 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:03:01.655492 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:03:01.784282 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:03:01.784291 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:03:01.784259 [DEBUG][ APP][00007][clientsocket.go:18]OnConnected
+2017-12-23 11:03:01.784330 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:03:01.784380 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:54269
+2017-12-23 11:03:01.784464 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:03:02.784727 [DEBUG][ APP][00020][TcpSocket.go:133]onHandleBuff, PACKER_HEADER error, err:EOF
+2017-12-23 11:03:57.551456 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:03:57.551695 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:03:57.782604 [DEBUG][ APP][00007][clientsocket.go:18]OnConnected
+2017-12-23 11:03:57.782676 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:03:57.782717 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:54302
+2017-12-23 11:03:57.782758 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:03:57.782709 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:03:57.782880 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:03:58.778653 [DEBUG][ APP][00020][TcpSocket.go:133]onHandleBuff, PACKER_HEADER error, err:EOF, buf:[0 0 0 1 0 0 0 16 0 0 0 0 0 0 0 0]
+2017-12-23 11:06:36.638551 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:06:36.638820 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:06:36.774924 [DEBUG][ APP][00007][clientsocket.go:18]OnConnected
+2017-12-23 11:06:36.774986 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:06:36.775053 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:06:36.775020 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:54414
+2017-12-23 11:06:36.775114 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:06:36.775132 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:10:20.122275 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:10:20.122572 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:10:20.760403 [DEBUG][ APP][00007][clientsocket.go:20]OnConnected
+2017-12-23 11:10:20.760488 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:54659
+2017-12-23 11:10:20.760495 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:10:20.760573 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:10:20.760607 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:10:20.760754 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:15:06.660189 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:15:06.660482 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:15:06.751014 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:15:06.750969 [DEBUG][ APP][00007][clientsocket.go:20]OnConnected
+2017-12-23 11:15:06.751229 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:54970
+2017-12-23 11:15:06.751576 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:15:06.751568 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:15:06.751694 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:15:07.748641 [DEBUG][ APP][00020][clientsocket.go:27]OnPacket
+2017-12-23 11:17:50.286007 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:17:50.286232 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:17:50.740866 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:17:50.740863 [DEBUG][ APP][00007][clientsocket.go:20]OnConnected
+2017-12-23 11:17:50.740949 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:55153
+2017-12-23 11:17:50.740995 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:17:50.741055 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:17:50.741146 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:17:58.084479 [DEBUG][ APP][00018][TcpSocket.go:78]onRecvBuff, err:EOF
+2017-12-23 11:17:58.084518 [DEBUG][ APP][00021][clientsocket.go:23]OnClosed
+2017-12-23 11:18:45.491523 [ INFO][ APP][00035][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:18:45.491551 [DEBUG][ APP][00007][clientsocket.go:20]OnConnected
+2017-12-23 11:18:45.491595 [ INFO][ APP][00034][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:18:45.491634 [ INFO][ APP][00037][TcpSocket.go:62]start checkExit
+2017-12-23 11:18:45.491677 [ INFO][ APP][00036][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:18:45.491718 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:55158
+2017-12-23 11:19:05.694652 [DEBUG][ APP][00034][TcpSocket.go:78]onRecvBuff, err:EOF
+2017-12-23 11:19:05.694674 [DEBUG][ APP][00037][clientsocket.go:23]OnClosed
+2017-12-23 11:19:08.442521 [DEBUG][ APP][00007][clientsocket.go:20]OnConnected
+2017-12-23 11:19:08.442543 [ INFO][ APP][00039][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:19:08.442572 [ INFO][ APP][00038][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:19:08.442622 [ INFO][ APP][00041][TcpSocket.go:62]start checkExit
+2017-12-23 11:19:08.442629 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:55167
+2017-12-23 11:19:08.442651 [ INFO][ APP][00040][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:19:30.676720 [DEBUG][ APP][00038][TcpSocket.go:78]onRecvBuff, err:EOF
+2017-12-23 11:19:30.676764 [DEBUG][ APP][00041][clientsocket.go:23]OnClosed
+2017-12-23 11:19:43.041991 [DEBUG][ APP][00007][clientsocket.go:20]OnConnected
+2017-12-23 11:19:43.042055 [ INFO][ APP][00012][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:19:43.042092 [ INFO][ APP][00010][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:19:43.042129 [ INFO][ APP][00013][TcpSocket.go:62]start checkExit
+2017-12-23 11:19:43.042092 [ INFO][ APP][00011][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:19:43.042146 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:55171
+2017-12-23 11:20:14.668381 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:20:14.668616 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:20:15.040846 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:20:15.040854 [DEBUG][ APP][00007][clientsocket.go:21]OnConnected
+2017-12-23 11:20:15.040917 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:55194
+2017-12-23 11:20:15.040970 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:20:15.041021 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:20:15.041144 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:20:16.038842 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:16.038876 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:17.039254 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:17.039288 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:18.040606 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:18.040648 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:19.039905 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:19.039947 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:20.035798 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:20.035847 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:21.037109 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:21.037152 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:22.036374 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:22.036415 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:23.036796 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:23.036839 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:24.035355 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:24.035391 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:26.896588 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:20:26.896876 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:20:27.037182 [DEBUG][ APP][00007][clientsocket.go:21]OnConnected
+2017-12-23 11:20:27.037257 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:55201
+2017-12-23 11:20:27.037268 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:20:27.037316 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:20:27.037370 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:20:27.037434 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:20:28.038960 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:28.039003 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:29.037202 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:29.037245 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:30.035746 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:30.035788 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:31.038249 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:31.038291 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:33.060466 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:20:33.060694 [ INFO][ APP][00007][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:20:34.040043 [DEBUG][ APP][00007][clientsocket.go:21]OnConnected
+2017-12-23 11:20:34.040098 [ INFO][ APP][00020][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:20:34.040157 [ INFO][ APP][00018][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:20:34.040192 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:55206
+2017-12-23 11:20:34.040213 [ INFO][ APP][00019][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:20:34.040308 [ INFO][ APP][00021][TcpSocket.go:62]start checkExit
+2017-12-23 11:20:35.035656 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:35.035699 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:36.039838 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:36.039880 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:37.038645 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:37.038687 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:38.036522 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:38.036565 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:39.035034 [DEBUG][ APP][00020][clientsocket.go:28]OnPacket
+2017-12-23 11:20:39.035075 [ INFO][ APP][00020][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:20:40.006761 [DEBUG][ APP][00018][TcpSocket.go:78]onRecvBuff, err:EOF
+2017-12-23 11:20:40.006796 [DEBUG][ APP][00021][clientsocket.go:24]OnClosed
+2017-12-23 11:20:42.018324 [ INFO][ APP][00035][TcpSocket.go:160]start onSendBuff
+2017-12-23 11:20:42.018357 [ INFO][ APP][00034][TcpSocket.go:72]start onRecvBuff
+2017-12-23 11:20:42.018373 [DEBUG][ APP][00007][clientsocket.go:21]OnConnected
+2017-12-23 11:20:42.018448 [ INFO][ APP][00036][TcpSocket.go:94]start onHandleBuff
+2017-12-23 11:20:42.018476 [ INFO][ APP][00037][TcpSocket.go:62]start checkExit
+2017-12-23 11:20:42.018491 [ INFO][ APP][00007][TcpAcceptor.go:49]new connection 127.0.0.1:55209
+2017-12-23 11:23:37.147167 [ INFO][ APP][00001][TcpAcceptor.go:27]start listen on port:9998
+2017-12-23 11:23:37.147401 [ INFO][ APP][00021][TcpAcceptor.go:36]start accept on port:9998
+2017-12-23 11:23:38.010054 [DEBUG][ APP][00021][clientsocket.go:21]OnConnected
+2017-12-23 11:23:38.010076 [ INFO][ APP][00036][TcpSocket.go:93]start onHandleBuff
+2017-12-23 11:23:38.010124 [ INFO][ APP][00035][TcpSocket.go:159]start onSendBuff
+2017-12-23 11:23:38.010094 [ INFO][ APP][00034][TcpSocket.go:71]start onRecvBuff
+2017-12-23 11:23:38.010159 [ INFO][ APP][00021][TcpAcceptor.go:49]new connection 127.0.0.1:55218
+2017-12-23 11:23:38.010264 [ INFO][ APP][00037][TcpSocket.go:61]start checkExit
+2017-12-23 11:23:39.011261 [DEBUG][ APP][00036][clientsocket.go:28]OnPacket
+2017-12-23 11:23:39.011304 [ INFO][ APP][00036][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:40.009223 [DEBUG][ APP][00036][clientsocket.go:28]OnPacket
+2017-12-23 11:23:40.009265 [ INFO][ APP][00036][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:41.009600 [DEBUG][ APP][00036][clientsocket.go:28]OnPacket
+2017-12-23 11:23:41.009643 [ INFO][ APP][00036][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:42.009601 [DEBUG][ APP][00036][clientsocket.go:28]OnPacket
+2017-12-23 11:23:42.009634 [ INFO][ APP][00036][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:42.699686 [DEBUG][ APP][00034][TcpSocket.go:77]onRecvBuff, err:EOF
+2017-12-23 11:23:42.699690 [DEBUG][ APP][00037][clientsocket.go:24]OnClosed
+2017-12-23 11:23:45.293957 [DEBUG][ APP][00021][clientsocket.go:21]OnConnected
+2017-12-23 11:23:45.294069 [ INFO][ APP][00024][TcpSocket.go:71]start onRecvBuff
+2017-12-23 11:23:45.294071 [ INFO][ APP][00026][TcpSocket.go:93]start onHandleBuff
+2017-12-23 11:23:45.294157 [ INFO][ APP][00021][TcpAcceptor.go:49]new connection 127.0.0.1:55221
+2017-12-23 11:23:45.294165 [ INFO][ APP][00025][TcpSocket.go:159]start onSendBuff
+2017-12-23 11:23:45.294212 [ INFO][ APP][00027][TcpSocket.go:61]start checkExit
+2017-12-23 11:23:46.290854 [DEBUG][ APP][00026][clientsocket.go:28]OnPacket
+2017-12-23 11:23:46.290911 [ INFO][ APP][00026][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:47.294254 [DEBUG][ APP][00026][clientsocket.go:28]OnPacket
+2017-12-23 11:23:47.294297 [ INFO][ APP][00026][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:48.293008 [DEBUG][ APP][00026][clientsocket.go:28]OnPacket
+2017-12-23 11:23:48.293065 [ INFO][ APP][00026][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:49.291646 [DEBUG][ APP][00026][clientsocket.go:28]OnPacket
+2017-12-23 11:23:49.291751 [ INFO][ APP][00026][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:49.706756 [DEBUG][ APP][00024][TcpSocket.go:77]onRecvBuff, err:EOF
+2017-12-23 11:23:49.706798 [DEBUG][ APP][00027][clientsocket.go:24]OnClosed
+2017-12-23 11:23:52.279177 [DEBUG][ APP][00021][clientsocket.go:21]OnConnected
+2017-12-23 11:23:52.279201 [ INFO][ APP][00051][TcpSocket.go:159]start onSendBuff
+2017-12-23 11:23:52.279177 [ INFO][ APP][00050][TcpSocket.go:71]start onRecvBuff
+2017-12-23 11:23:52.279223 [ INFO][ APP][00052][TcpSocket.go:93]start onHandleBuff
+2017-12-23 11:23:52.279253 [ INFO][ APP][00053][TcpSocket.go:61]start checkExit
+2017-12-23 11:23:52.279257 [ INFO][ APP][00021][TcpAcceptor.go:49]new connection 127.0.0.1:55224
+2017-12-23 11:23:53.279319 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:23:53.279353 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:54.280688 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:23:54.280736 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:55.279179 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:23:55.279233 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:56.279361 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:23:56.279403 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:57.276049 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:23:57.276092 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:58.275875 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:23:58.275917 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:23:59.278433 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:23:59.278476 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:00.278131 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:00.278180 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:01.276055 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:01.276096 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:02.277766 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:02.277808 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:03.279557 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:03.279600 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:04.276116 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:04.276159 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:05.276112 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:05.276153 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:06.280217 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:06.280260 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:07.276886 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:07.276929 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:08.278609 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:08.278656 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:09.275965 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:09.276006 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:10.277475 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:10.277529 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:11.276303 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:11.276344 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:12.279982 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:12.280024 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:13.276984 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:13.277026 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:14.279802 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:14.279844 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:15.277302 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:15.277346 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
+2017-12-23 11:24:16.279804 [DEBUG][ APP][00052][clientsocket.go:28]OnPacket
+2017-12-23 11:24:16.279846 [ INFO][ APP][00052][clientsocket.go:34]CMD_ALIVE
