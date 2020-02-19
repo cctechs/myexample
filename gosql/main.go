@@ -4,6 +4,8 @@ import "fmt"
 import "database/sql"
 import _ "github.com/go-sql-driver/mysql"
 
+
+
 func main() {
 	fmt.Println("hello world")
 	db, err := sql.Open("mysql", "root:wubo123456@/test123")
