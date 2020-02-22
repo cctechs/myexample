@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7587926c-e85a-43ee-a9c3-be6750a29288" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/myetcd/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mygomicro/greeter/gen.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mygomicro/greeter/greeter.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mygomicro/micro_client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mygomicro/micro_server/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myexample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myexample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube/download/youtube.go" beforeDir="false" afterPath="$PROJECT_DIR$/youtube/download/youtube.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/youtube/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mygomicro/micro_client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/mygomicro/micro_client/client.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +132,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build myexample/myetcd/client" />
       <item itemvalue="Go Build.go build server.go" />
       <item itemvalue="Go Build.go build myexample/mymicro/client" />

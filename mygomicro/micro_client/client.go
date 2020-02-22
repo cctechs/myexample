@@ -3,12 +3,12 @@ package main
 import (
 	"context"
 	"fmt"
-	gm "github.com/micro/go-micro/v2"
+	"github.com/micro/go-micro/v2"
 	pb "myexample/mygomicro/greeter"
 )
 
 func main()  {
-	service := gm.NewService(gm.Name("greeter.client"))
+	service := micro.NewService(micro.Name("greeter.client"))
 	service.Init()
 
 	greeter := pb.NewGreeterService("greeter", service.Client())
