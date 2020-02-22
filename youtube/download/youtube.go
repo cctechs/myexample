@@ -48,7 +48,8 @@ func (y * Youtube) progress(){
 	}()
 }
 
-func (y *Youtube) DecodeURL(url string) error {
+func (y *Youtube)  DecodeURL(url string) error {
+	fmt.Println("url:", url)
 	err := y.findVideoID(url)
 	if err != nil {
 		return fmt.Errorf("findVideoID error=%s", err)
@@ -69,6 +70,7 @@ func (y *Youtube) DecodeURL(url string) error {
 
 func (y *Youtube) StartDownload(destFile string) error {
 	//download highest resolution on [0]
+	fmt.Println(destFile)
 	targetStream := y.StreamList[0]
 	url := targetStream["url"] + "&signature=" + targetStream["sig"]
 	//y.log(fmt.Sprintln("Download url=", url))
@@ -137,7 +139,7 @@ func (y *Youtube) parseVideoInfo() error {
 		})
 		y.log(fmt.Sprintf("Stream found: quality '%s', format '%s'", streamQry["quality"][0], streamQry["type"][0]))
 	}
-
+	fmt.Println("streams:", streams)
 	y.StreamList = streams
 	return nil
 }
@@ -145,6 +147,7 @@ func (y *Youtube) parseVideoInfo() error {
 func (y *Youtube) getVideoInfo() error {
 	url := "http://youtube.com/get_video_info?video_id=" + y.VideoID
 	//y.log(fmt.Sprintf("url: %s", url))
+	fmt.Println("url", url)
 	resp, err := http.Get(url)
 	if err != nil {
 		return err
@@ -158,6 +161,7 @@ func (y *Youtube) getVideoInfo() error {
 		return err
 	}
 	y.videoInfo = string(body)
+	fmt.Println("videoinfo", y.videoInfo)
 	return nil
 }
 

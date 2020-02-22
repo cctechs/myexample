@@ -1,0 +1,9 @@
+syntax="proto3";
+
+package chat.msg;
+
+message ChatMsg {
+    string sender = 1;
+    string receiver = 2 ;
+}
+

@@ -1,17 +1,19 @@
 package main
 
 import (
-	"os"
-	"path/filepath"
+	"./download"
 	"flag"
 	"log"
-	"./download"
+	"os"
+	"path/filepath"
 )
 
 func main() {
 	flag.Parse()
 	log.Println(flag.Args())
+	//os.Args[0] = "https://www.youtube.com/watch?v=PFhgjgU36Gg"
 	currentDir, _ := filepath.Abs(filepath.Dir(os.Args[0]))
+	//currentDir, _ := filepath.Abs(filepath.Dir(url))
 	currentDir += "/files/"
 	log.Println("download to dir=", currentDir)
 	y := youtube.NewYoutube(true)

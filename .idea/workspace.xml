@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7587926c-e85a-43ee-a9c3-be6750a29288" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/myetcd/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mygomicro/greeter/gen.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mygomicro/greeter/greeter.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mygomicro/micro_client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mygomicro/micro_server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myexample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myexample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosql/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gosql/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youtube/download/youtube.go" beforeDir="false" afterPath="$PROJECT_DIR$/youtube/download/youtube.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youtube/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/youtube/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,25 +18,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoDepProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/.." />
+      </list>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="IfGFtREE" />
   </component>
   <component name="ProjectId" id="1Y1dWNvVfBQPdLw1VDqR7D2lPsN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,27 +75,83 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build client.go">
+    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myexample" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/youtube/main.go" />
+      <filePath value="$PROJECT_DIR$/mygomicro/micro_client/client.go" />
+      <package value="myexample" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myexample" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/mymicro/server" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/gosql/main.go" />
+      <filePath value="$PROJECT_DIR$/mymicro/server/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myexample" />
+      <working_directory value="$PROJECT_DIR$/youtube" />
+      <parameters value="https://www.youtube.com/watch?v=PFhgjgU36Gg" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/youtube/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build myexample/myetcd/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myexample" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/myetcd/client/client.go" />
+      <package value="myexample/myetcd/client" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build myexample/mygomicro/micro_server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myexample" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/mygomicro/micro_server/main.go" />
+      <package value="myexample/mygomicro/micro_server" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build myexample/mymicro/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myexample" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/mymicro/client/main.go" />
+      <package value="myexample/mymicro/client" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myexample" />
+      <working_directory value="$PROJECT_DIR$/mygomicro/micro_server" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/mygomicro/micro_server/server.go" />
+      <package value="myexample/mygomicro/micro_server" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build myexample/myetcd/client" />
+      <item itemvalue="Go Build.go build server.go" />
+      <item itemvalue="Go Build.go build myexample/mymicro/client" />
+      <item itemvalue="Go Build.go build myexample/mygomicro/micro_server" />
+      <item itemvalue="Go Build.go build client.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build client.go" />
+        <item itemvalue="Go Build.go build server.go" />
+        <item itemvalue="Go Build.go build myexample/mygomicro/micro_server" />
+        <item itemvalue="Go Build.go build myexample/myetcd/client" />
+        <item itemvalue="Go Build.go build myexample/mymicro/client" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +163,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
