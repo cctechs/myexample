@@ -16,3 +16,9 @@ protoc --go_out=plugins=grpc:. *.proto
 
 ## go-micro
 protoc --proto_path=$GOPATH/src:. --micro_out=. --go_out=. greeter.proto
+
+
+micro api --handler=api
+
+curl -H 'head-1: I am a header' "http://192.168.132.1:8080/example/call?name=john"
+curl -H 'Content-Type: application/json' -d '{data:123}' http://192.168.132.1:8080/example/foo/bar

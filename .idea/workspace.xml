@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7587926c-e85a-43ee-a9c3-be6750a29288" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/mygomicro/basic_practices/api/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mygomicro/basic_practices/api/proto/api.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mygomicro/basic_practices/api/proto/gen.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mygomicro/micro_function/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynet/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynet/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynet/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myrpc/myclient/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myrpc/myserver/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myrpc/server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mygomicro/micro_client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/mygomicro/micro_client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mygomicro/micro_server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/mygomicro/micro_server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/golang.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/golang.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -39,9 +51,15 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -68,57 +86,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build client.go">
-    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build myexample/mygomicro/micro_client">
+    <configuration name="go build myexample/mygomicro/basic_practices/api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myexample" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/mygomicro/basic_practices/api/api.go" />
+      <package value="myexample/mygomicro/basic_practices/api" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build myexample/mygomicro/micro_client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myexample" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/mygomicro/micro_client/client.go" />
-      <package value="myexample" />
+      <package value="myexample/mygomicro/micro_client" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="myexample" />
-      <working_directory value="$PROJECT_DIR$/mymicro/server" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/mymicro/server/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="myexample" />
-      <working_directory value="$PROJECT_DIR$/youtube" />
-      <parameters value="https://www.youtube.com/watch?v=PFhgjgU36Gg" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/youtube/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build myexample/myetcd/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build myexample/mynet/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myexample" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/myetcd/client/client.go" />
-      <package value="myexample/myetcd/client" />
+      <filePath value="$PROJECT_DIR$/mynet/client/client.go" />
+      <package value="myexample/mynet/client" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build myexample/mygomicro/micro_server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build myexample/mynet/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myexample" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/mygomicro/micro_server/main.go" />
-      <package value="myexample/mygomicro/micro_server" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build myexample/mymicro/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="myexample" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/mymicro/client/main.go" />
-      <package value="myexample/mymicro/client" />
+      <filePath value="$PROJECT_DIR$/mynet/server/server.go" />
+      <package value="myexample/mynet/server" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -132,20 +133,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build myexample/myetcd/client" />
       <item itemvalue="Go Build.go build server.go" />
-      <item itemvalue="Go Build.go build myexample/mymicro/client" />
-      <item itemvalue="Go Build.go build myexample/mygomicro/micro_server" />
-      <item itemvalue="Go Build.go build client.go" />
+      <item itemvalue="Go Build.go build myexample/mygomicro/basic_practices/api" />
+      <item itemvalue="Go Build.go build myexample/mynet/server" />
+      <item itemvalue="Go Build.go build myexample/mynet/client" />
+      <item itemvalue="Go Build.go build myexample/mygomicro/micro_client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build client.go" />
+        <item itemvalue="Go Build.go build myexample/mygomicro/micro_client" />
         <item itemvalue="Go Build.go build server.go" />
-        <item itemvalue="Go Build.go build myexample/mygomicro/micro_server" />
-        <item itemvalue="Go Build.go build myexample/myetcd/client" />
-        <item itemvalue="Go Build.go build myexample/mymicro/client" />
+        <item itemvalue="Go Build.go build myexample/mynet/client" />
+        <item itemvalue="Go Build.go build myexample/mynet/server" />
+        <item itemvalue="Go Build.go build myexample/mygomicro/basic_practices/api" />
       </list>
     </recent_temporary>
   </component>
@@ -164,5 +164,107 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="27" width="790" height="573" key="#GOROOT" timestamp="1582452157197">
+      <screen x="0" y="27" width="800" height="573" />
+    </state>
+    <state x="0" y="27" width="790" height="573" key="#GOROOT/0.27.800.573@0.27.800.573" timestamp="1582452157197" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/util/wrapper/wrapper.go</url>
+          <line>54</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/client/grpc/grpc.go</url>
+          <line>396</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/client/grpc/grpc.go</url>
+          <line>427</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/client/grpc/grpc.go</url>
+          <line>84</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/client/grpc/grpc.go</url>
+          <line>395</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/client/selector/dns/dns.go</url>
+          <line>33</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/micro/go-micro/v2/client/selector/default.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/micro/go-micro/v2/client/selector/default.go</url>
+          <line>51</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/micro/go-micro/v2/client/options.go</url>
+          <line>154</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/client/grpc/grpc.go</url>
+          <line>72</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/client/grpc/grpc.go</url>
+          <line>342</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/registry/etcd/etcd.go</url>
+          <line>315</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/registry/cache/cache.go</url>
+          <line>186</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/registry/cache/cache.go</url>
+          <line>141</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/registry/cache/cache.go</url>
+          <line>157</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/registry/cache/cache.go</url>
+          <line>154</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../pkg/mod/github.com/micro/go-micro/v2@v2.1.0/registry/cache/cache.go</url>
+          <line>133</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/micro/go-micro/v2/registry/mdns_registry.go</url>
+          <line>279</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
